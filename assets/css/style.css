@@ -75,3 +75,44 @@ ul.navbar-nav a{
 nav.navbar i {
    font-size: 17px; 
 }
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page_title{
+    text-align: center;
+    margin: 70px 0px;
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+ul.menu{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul.menu li a{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px 15px;
+    
+}
+
+ul.menu li a.active{
+    background:var(--gradient-color);
+    color: #fff;
+    border-radius: 35px;
+}
+
+ul.menu i {
+    cursor: pointer;
+    font-size: 20px;
+}
