@@ -234,3 +234,34 @@ ul.menu i {
     font-weight: 700;
     font-family: var(--other-font);
 }
+
+.show_more{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.show_more .btn-item{
+    color: black;
+    padding: 15px 55px;
+    border: solid rgb(223, 223, 223) 2px;
+    font-size: 1rem;
+    transition: all .3s ease-in-out ;
+    font-weight: 700;
+}
+
+.show_more .btn-item:hover{
+    border: solid rgba(0, 0, 0, 0.39) 2px;
+    background-color: rgb(238, 238, 238);
+    transform: scale(1.05);
+}
+
+.show_more .btn-item i{
+    margin-right: 7px;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    font-size: 12px;
+    border-radius: 100%;
+}
